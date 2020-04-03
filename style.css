@@ -1,0 +1,456 @@
+
+//* ================================
+    01. SLIDER AREA CSS
+===================================*/
+.slider-area{
+    position:relative;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#slider.slider-area {
+    background-color: #F9F9F9;
+}
+.slide-height {
+  min-height: 720px;
+  background-size: cover;
+  background-position: center center;
+}
+.slide-height-full{
+  min-height: 960px;
+  background-size: cover;
+  background-position: center center;
+}
+.slide-content h1 {
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.slide-content h1 b {
+    display: block;
+}
+.slide-content h1 span {
+  color: #ffb500;
+}
+.slide-content p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.slider-active{}
+.slider-active button.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: #ffb500;
+    width: 40px;
+    font-size: 26px;
+    padding: 0;
+    color: #ffffff;
+    z-index: 9;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    opacity: 0;
+    height: 40px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -moz-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -ms-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -o-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+}
+.slick-prev.slick-arrow:hover, 
+.slick-next.slick-arrow:hover {
+    color: #ffb500 !important;
+    background-color: #333333 !important;
+}
+.slider-active button.slick-next{left: auto;right:20px}
+.slider-active:hover button.slick-arrow{opacity: 1;}
+.slider-active:hover button.slick-prev{left: 30px;}
+.slider-active:hover button.slick-next{right: 30px;}
+.slider-active button.slick-arrow:hover{
+  background: #ffb500;
+  color: #ffffff;
+}
+.slider-active .slick-dots {
+    text-align: left;
+    bottom: 60px;
+    position: absolute;
+    left: 30px;
+}
+.slider-active .slick-dots li {
+  display: inline-block;
+  margin: 0 4px
+}
+.slider-active .slick-dots li button {
+    background: no-repeat;
+    border: 0;
+    height: 10px;
+    width: 10px;
+    text-indent: -9999px;
+    background: #ffffff;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slider-active .slick-dots li.slick-active button {
+  background: #ffb500 ;
+  height: 30px;
+  width: 10px;
+}
+.slider-active button i {
+    font-size: 20px;
+    top: -1px;
+    position: relative;
+}
+.read-more a {
+    color: #ffffff;
+    display: inline-block;
+    border-right: 5px solid #333333;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    -webkit-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -moz-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -ms-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -o-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 48px;
+    padding: 0 40px;
+    background-color: #ffb500;
+    margin-top: 30px;
+}
+.read-more a:last-child{
+    margin-right: 0;
+}
+.read-more a i {
+    padding-left: 5px;
+}
+.read-more a:hover{
+    background: #333333;
+    border-right-color: #ffb500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================
+    EXTRA CSS SOCIAL MENU
+===================================*/
+.social-area {
+    margin: 50px 0;
+}
+.social-intro {
+    box-shadow: #101010 2px 2px 6px, #3e3b3b -2px -2px 6px;
+    padding: 0 5px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 65px 5px;
+}
+.social-intro h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+.social-intro h5 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.social-intro .profile {
+    width: 100px;
+    border-radius: 30px;
+}
+.social-intro .profile img {
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: #101010 2px 2px 6px, #3e3b3b -2px -2px 6px;
+    padding: 5px;
+}
+.social-intro li {
+    display: inline-block;
+}
+
+.social-intro li a {
+    color: #ffffff;
+    opacity: 1;
+    padding: 5px;
+    display: block;
+}
+.social-intro li a img {
+    width: 70px;
+    height: auto;
+}
+.social-intro li a:hover {
+    color: #ff9801;
+    opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+    .social-intro {
+        padding: 0 10px;
+    }
+}
+body{
+    background-color: #212529;
+    margin: 50px 0px;
+}
+.header-area {
+    border-radius: 30px;
+    box-shadow: #101010 2px 2px 6px, #3e3b3b -2px -2px 6px;
+    margin: 30px 0px;
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -ms-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+.read-more a {
+    color: #ffffff;
+    display: inline-block;
+    border-right: 5px solid #333333;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    -webkit-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -moz-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -ms-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    -o-box-shadow: 0px 2px 20px rgba(153, 153, 153, 0.2);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 48px;
+    padding: 0 40px;
+    background-color: #ffb500;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.read-more a {
+    background-color: #ffb500;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+.read-more a:last-child {
+    margin-right: 0;
+}
+.promo-content .read-more a:hover {
+    background-color: #333333;
+}
+/*================================
+    [ THEME PREVIEW PRELOADER ] 
+==================================**/
+.loader-popover{
+    height: 100%;
+    width: 100%;
+    background: #000000 none repeat scroll 0 0;
+    z-index: 999999999999;
+    position: fixed;
+}
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+    border-radius: 50%;
+    -webkit-perspective: 780px;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    perspective: 780px;
+}
+.loader-container{
+    position: relative;  
+    height: 100px;
+    width: 100px;
+    animation: loader-container 10s linear infinite;
+  }
+
+  .loader-container > div{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    box-shadow: 0 0 10px -2px rgba(0,0,0,0.5);
+    animation-duration: 2500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  .box1{
+    background-color: #D11138;
+    top: 4px;
+    left: 4px;
+    transform-origin: bottom center;
+    animation-name: box1;
+  }
+  .box2{
+    background-color: #ffffff;
+    top: 4px;
+    right: 4px;
+    transform-origin: center left;
+    animation-name: box2;
+  }
+  .box3{
+    background-color: #D11138;
+    bottom: 4px;
+    right: 4px;
+    transform-origin: top center;
+    animation-name: box3;
+  }
+  .box4{
+    background-color: #ffffff;
+    bottom: 4px;
+    left: 4px;
+    transform-origin: center right;
+    animation-name: box4;
+  }
+  
+  
+  @keyframes box1{
+    0%{
+      transform: perspective(200px) rotateX(90deg);
+    }
+    11%{
+       transform: perspective(200px) rotateX(0);
+    }
+    88%{
+      transform: perspective(200px) rotateX(0);
+    }
+    99%{
+      transform: perspective(200px) rotateX(90deg);
+    }
+    100%{
+       transform: perspective(200px) rotateX(90deg);
+    }
+  }
+  @keyframes box2{
+    0%{
+      transform: perspective(200px) rotateY(90deg);
+    }
+    11%{
+       transform: perspective(200px) rotateY(90deg);
+    }
+    22%{
+      transform: perspective(200px) rotateY(0);
+    }
+    77%{
+      transform: perspective(200px) rotateY(0);
+    }
+    88%{
+      transform: perspective(200px) rotateY(90deg);
+    }
+    100%{
+      transform: perspective(200px) rotateY(90deg);
+    }
+  }
+  @keyframes box3{
+    0%{
+      transform: perspective(200px) rotateX(-90deg);
+    }
+    22%{
+      transform: perspective(200px) rotateX(-90deg);
+    }
+    33%{
+      transform: perspective(200px) rotateX(0);
+    }
+    66%{
+       transform: perspective(200px) rotateX(0);
+    }
+    77%{
+      transform: perspective(200px) rotateX(-90deg);
+    }
+    100%{
+      transform: perspective(200px) rotateX(-90deg);
+    }
+  }
+  @keyframes box4{
+    0%{
+      transform: perspective(200px) rotateY(-90deg);
+    }  
+    33%{
+      transform: perspective(200px) rotateY(-90deg);
+    }
+    44%{
+        transform: perspective(200px) rotateY(0);
+    }
+    55%{
+      transform: perspective(200px) rotateY(0);
+    }
+    66%{
+      transform: perspective(200px) rotateY(-90deg);
+    }
+    100%{
+      transform: perspective(200px) rotateY(-90deg);
+    }
+  }
+  
+  @keyframes loader-container{
+    0%{
+      transform: rotate(0);
+    }
+    23%{
+      transform: rotate(0);
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    48%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    73%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    98%{
+       transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
