@@ -8,7 +8,7 @@
 
 ### Slider HTML Markup 
 
-<pre><code>
+```
 &lt;!-- SLIDER AREA START --&gt;
 &lt;div id="slider" class="slider-area"&gt;
 &lt;div class="slider-active"&gt;
@@ -39,7 +39,7 @@
 &lt;!-- SINGLE SLIDE ITEAM END --&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</code></pre>
+```
 
 
 ### SLICK SLIDER active.js
