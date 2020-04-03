@@ -9,36 +9,36 @@
 ### Slider HTML Markup 
 
 ```
-&lt;!-- SLIDER AREA START --&gt;
-&lt;div id="slider" class="slider-area"&gt;
-&lt;div class="slider-active"&gt;
-
-&lt;!-- SINGLE SLIDE ITEAM START--&gt;
-&lt;div class="single-slider slide-height d-flex align-items-center" style="background-image:url(social/sliderbg.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat;" data-black-overlay="5"&gt;
-&lt;div class="container"&gt;
-&lt;div class="row"&gt;
-&lt;div class="col-xl-10"&gt;
-&lt;!-- SIDER CONTENT START --&gt;
-&lt;div class="slide-content text-left"&gt;
-&lt;h1 data-animation="fadeInUp" data-delay=".5s"&gt;Caring for all your Family’s &lt;span&gt;Need helps.&lt;/span&gt;&lt;/h1&gt;
-&lt;p data-animation="fadeInUp" data-delay="1s"&gt;Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerc&lt;/p&gt;
-&lt;div class="read-more"&gt;
-&lt;a href="#" data-animation="fadeInUp" data-delay="1.5s"&gt;About Us
-&lt;i class="fa fa-address-card-o"&gt;&lt;/i&gt;
-&lt;/a&gt;
-&lt;a href="#" data-animation="fadeInUp" data-delay="1.8s"&gt;More Info
-&lt;i class="fa fa-paper-plane-o"&gt;&lt;/i&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- SIDER CONTENT END --&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- SINGLE SLIDE ITEAM END --&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+        <!-- SLIDER AREA START -->
+        <div id="slider" class="slider-area">
+            <div class="slider-active">
+                
+                <!-- SINGLE SLIDE ITEAM START-->
+                <div class="single-slider slide-height d-flex align-items-center" style="background-image:url(social/sliderbg.jpg); background-size: cover; background-position: center center; background-repeat: no-repeat;" data-black-overlay="5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <!-- SIDER CONTENT START -->
+                                <div class="slide-content text-left">
+                                    <h1 data-animation="fadeInUp" data-delay=".5s">Caring for all your Family’s <span>Need helps.</span></h1>
+                                    <p data-animation="fadeInUp" data-delay="1s">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerc</p>
+                                    <div class="read-more">
+                                        <a href="#" data-animation="fadeInUp" data-delay="1.5s">About Us
+                                            <i class="fa fa-address-card-o"></i>
+                                        </a>
+                                        <a href="#" data-animation="fadeInUp" data-delay="1.8s">More Info
+                                            <i class="fa fa-paper-plane-o"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- SIDER CONTENT END -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE SLIDE ITEAM END -->
+            </div>
+        </div>
 ```
 
 
